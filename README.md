@@ -1,1 +1,2 @@
-# Net_intru_detector
+# Network intrusion detector AI 
+It is a final year project 
