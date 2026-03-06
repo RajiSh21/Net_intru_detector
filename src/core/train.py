@@ -18,7 +18,7 @@ Usage
 
 import argparse
 
-from intrusion_detector import (
+from .intrusion_detector import (
     NetworkIntrusionDetector,
     _TRAIN_URL,
     _TEST_URL,

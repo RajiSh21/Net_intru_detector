@@ -7,8 +7,13 @@ Run with:  python -m pytest tests/ -v
 import numpy as np
 import pandas as pd
 import pytest
+import os
+import sys
 
-from intrusion_detector import (
+# Add src directory to path for imports
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
+
+from core.intrusion_detector import (
     CATEGORICAL_COLS,
     COLUMN_NAMES,
     NetworkIntrusionDetector,
